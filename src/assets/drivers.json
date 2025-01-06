@@ -1,0 +1,28 @@
+{
+  "driver1": {
+    "fullName": "Водитель 1",
+    "address": "Россия, Город 1",
+    "phoneNumber": "+79991234001",
+    "pesel": "12345678901",
+    "childrenInfo": "2 детей",
+    "education": "Высшее",
+    "bankAccount": "12345678901234567891",
+    "emergencyContact": {
+      "name": "Контакт 1",
+      "phone": "+79991112001"
+    }
+  },
+  "driver2": {
+    "fullName": "Водитель 2",
+    "address": "Россия, Город 2",
+    "phoneNumber": "+79991234002",
+    "pesel": "12345678902",
+    "childrenInfo": "1 ребёнок",
+    "education": "Среднее",
+    "bankAccount": "12345678901234567892",
+    "emergencyContact": {
+      "name": "Контакт 2",
+      "phone": "+79991112002"
+    }
+  }
+}

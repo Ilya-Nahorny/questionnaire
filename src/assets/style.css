@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* Общие стили для контейнера формы */
+.form-container {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для формы */
+  .questionnaire-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-input, .form-textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-input:focus, .form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Стили для кнопки */
+  .form-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стили для кнопки перехода к логину */
+  .login-button {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #e2e2e2;
+  }
+  
+  /* Стили для ссылки перехода на форму */
+  .login-link {
+    text-align: center;
+  }
+  
+  .error-message{
+    color: rgb(115, 8, 8);
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #f44336; /* Красный цвет */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .drivers-list{
+    width: 100vw;
+  }
+
+  .driver-name>strong{
+    color: #333;
+  }
+
+  .login-form{
+    width: 100vw;
+  }
